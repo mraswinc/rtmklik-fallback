@@ -1,0 +1,13 @@
+{
+  "name": "rtmklik-fallback",
+  "version": "1.0.0",
+  "description": "RTMKlik static fallback page for live streaming DR/failover during FIFA World Cup 2026",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "start": "npx serve public -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
